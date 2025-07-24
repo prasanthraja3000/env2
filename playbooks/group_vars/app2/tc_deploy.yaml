@@ -1,0 +1,8 @@
+---
+tc_deploy_artifacts:
+  - application_name: "{{ application_name }}"
+    artifacts:
+      - group: "com.example.app2"
+        id: "app2-webapp"
+        deploy_dirs: "app2"
+        conf_dirs: ""

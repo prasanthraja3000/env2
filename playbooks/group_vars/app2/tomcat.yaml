@@ -1,0 +1,14 @@
+---
+tomcat_incstances:
+  - application_name: "{{ application_name-02 }}"
+    java_truststore_enabled: true
+    java_truststore_certificates:
+      - san_RootCA_20280419-1.crt
+      - san_RootCA_20440408-2.crt
+      - root-ca-1.crt
+      - sample2.crt
+      - san-issuing-ca-022.crt
+      - san01-ca-issuing-ca-011.crt
+    version: "9.0.48"
+    xms: 8095m
+    xmx: 8095m

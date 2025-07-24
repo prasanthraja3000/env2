@@ -1,0 +1,17 @@
+---
+roles:
+  - name: app_tomcat_role
+    src: git+ssh://git@example.com:8897/env/app-tomcat-role.git
+    version: 0.450.1
+
+  - name: app_ssl_role
+    src: git+ssh://git@example.com:8897/env/app-ssl-role.git
+    version: 0.450.1
+
+  - name: app_tcdeploy_role
+    src: git+ssh://git@example.com:8897/env/app-tcdeploy-role.git
+    version: 0.450.1
+
+  - name: app_nginx_role
+    src: git+ssh://git@example.com:8897/env/app-nginx-role.git
+    version: 0.450.1

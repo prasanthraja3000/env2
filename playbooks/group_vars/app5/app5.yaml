@@ -1,0 +1,8 @@
+---
+logrotate_retention_period: 5
+app5_enabled: true
+app5_purge_config: false
+app5_max_file_size: 4GB
+app5_total_size_cap: 8GB
+app5_logging_clean_retention_hours: 24
+app5_logging_environment: env2

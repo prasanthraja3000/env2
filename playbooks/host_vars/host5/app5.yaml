@@ -1,0 +1,4 @@
+---
+logrotate_retention_period: 5
+app5_enabled: true
+app5_logging_environment: env2

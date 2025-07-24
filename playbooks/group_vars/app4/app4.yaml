@@ -1,0 +1,8 @@
+---
+logrotate_retention_period: 5
+app4_enabled: true
+app4_purge_config: false
+app4_max_file_size: 4GB
+app4_total_size_cap: 8GB
+app4_logging_clean_retention_hours: 24
+app4_logging_environment: env2

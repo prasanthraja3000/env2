@@ -1,0 +1,8 @@
+---
+logrotate_retention_period: 5
+app3_enabled: true
+app3_purge_config: false
+app3_max_file_size: 4GB
+app3_total_size_cap: 8GB
+app3_logging_clean_retention_hours: 24
+app3_logging_environment: env2
