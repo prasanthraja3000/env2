@@ -6,7 +6,7 @@ tomcat_incstances:
       - san_RootCA_20280419-1.crt
       - san_RootCA_20440408-2.crt
       - root-ca-1.crt
-      - sample1.crt
+      - sampledemo.crt
       - san-issuing-ca-022.crt
       - san01-ca-issuing-ca-011.crt
     version: "9.0.48"
